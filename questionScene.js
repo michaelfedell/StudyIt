@@ -16,7 +16,9 @@ import {
 
 import styles from "./styles";
 import PropTypes from 'prop-types';
-import answerScene from './answerScene'
+import answerScene from './answerScene';
+var prog = 0;
+
 
 class questionScene extends Component {
   static propTypes = {
@@ -24,13 +26,15 @@ class questionScene extends Component {
       navigator: PropTypes.object.isRequired,
     }
 
-    _onForward = () => {
+    _onForward = (ans) => {
       const nextRoute = {
         component: answerScene,
-        title: 'answer',
-        passProps: { answer: 0 }
+        title: 'Answer',
+        passProps: { ans }
       };
+      this.setState({questionIndex: this.state.questionIndex + 1});
       this.props.navigator.push(nextRoute);
+      prog += 1;
     }
 
   constructor(props) {
@@ -39,7 +43,8 @@ class questionScene extends Component {
       radio1: false,
       radio2: false,
       radio3: false,
-      radio4: true
+      radio4: false,
+      questionIndex: 0,
     };
   }
 
@@ -84,15 +89,17 @@ class questionScene extends Component {
       <Container style={styles.container}>
         <Header>
           <Body>
-            <Title>Button</Title>
+            <Title>QuestionScene</Title>
           </Body>
         </Header>
 
         <Content>
+          <Text style={styles.head}>Question {prog}</Text>
           <Text style={styles.question}>Question Content Here</Text>
           <ListItem
             selected={this.state.radio1}
-            onPress={() => this._onForward()}
+            onPress={() => this.toggleRadio1()}
+            onPress={() => this._onForward(0)}
           >
             <Text>Answer 1</Text>
             <Right>
@@ -102,6 +109,7 @@ class questionScene extends Component {
           <ListItem
             selected={this.state.radio2}
             onPress={() => this.toggleRadio2()}
+            onPress={() => this._onForward(1)}
           >
             <Text>Answer 2</Text>
             <Right>
@@ -111,6 +119,7 @@ class questionScene extends Component {
           <ListItem
             selected={this.state.radio3}
             onPress={() => this.toggleRadio3()}
+            onPress={() => this._onForward(2)}
           >
             <Text>Answer 3</Text>
             <Right>
@@ -120,6 +129,7 @@ class questionScene extends Component {
           <ListItem
             selected={this.state.radio4}
             onPress={() => this.toggleRadio4()}
+            onPress={() => this._onForward(3)}
           >
             <Text>Answer 4</Text>
             <Right>

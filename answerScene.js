@@ -23,15 +23,33 @@ class answerScene extends Component {
       navigator: PropTypes.object.isRequired,
     }
 
-    _onForward = () => {
-      this.props.navigator.push({
-        title: 'Scene ' + nextIndex,
+    _onOK = () => {
+      this.props.navigator.pop({
+        passProps: {}
       });
     }
 
+    checkAnswer() {
+      if (this.props.ans == 0)
+        return "Correct!";
+      else return "Wrong";
+    }
+
     render() {
-      return(
-        <Text> TEST </Text>
+      return (
+        <Container style={styles.container}>
+          <Header>
+            <Title>AnswerScene</Title>
+          </Header>
+  
+          <Content>
+            <Text style={styles.answer}>Your answer was: {this.props.ans + 1}</Text>
+            <Text>This is {this.checkAnswer()}</Text>
+            <Button onPress={() => this._onOK()}>
+              <Text>Ok</Text>
+            </Button>
+          </Content>
+        </Container>
       );
     }
   }

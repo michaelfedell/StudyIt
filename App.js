@@ -8,9 +8,9 @@
  import React, { Component } from 'react';
  import { NavigatorIOS, Text } from 'react-native';
  import questionScene from "./questionScene";
- import answerScene from "./questionScene";
+ import answerScene from "./questionScene"; 
 
- export default class App extends Component {
+ export default class App extends Component {  
    render() {
      return (
        <NavigatorIOS
