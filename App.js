@@ -1,7 +1,6 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * 
+ * 
  */
 
 import React, { Component } from 'react';
@@ -22,14 +21,23 @@ import {
   FooterTab,
   View,
 } from "native-base";
-import {AlertIOS} from 'react-native';
+import { AlertIOS, ProgressViewIOS } from 'react-native';
 import styles from "./styles";
+import Papa from 'papaparse';
+//import testData from './testData.csv';
 
 const QUESTIONS = [
-  {question: 'Sample Question Text 1', answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'], key: 1},
-  {question: 'Sample Question Text 2', answers: ['answer 1', 'answer 2', 'answer 3', 'answer 4'], key: 2},
+  {question: 'Sample Question Text 1', answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'], ansKey: 1},
+  {question: 'Sample Question Text 2', answers: ['answer 1', 'answer 2', 'answer 3', 'answer 4'], ansKey: 2},
+  {question: 'Sample Question Text 3', answers: ['ANSWER 1', 'ANSWER 2', 'ANSWER 3', 'ANSWER 4'], ansKey: 3},
 ];
 
+//const file = require('./testData');
+
+//const parseLine = Papa.parse(file);
+const parseLine = Papa.parse('test,TEST');
+
+let numRight = 0;
 
 export default class App extends Component {  
   constructor(props) {
@@ -39,36 +47,53 @@ export default class App extends Component {
       answerBox2: false,
       answerBox3: false,
       answerBox4: false,
-      questionIndex: 1,
+      questionIndex: 0,
     };
   }
 
-  _MoveOn(response) {
-    if (response=='correct') {
+  _reset() {
+    this.setState(previousState => {
+      return { questionIndex: 0 }
+    });
+    numRight = 0;
+  }
 
+  _MoveOn() {
+    // Need to add check for hasNextQuestion
+    if (QUESTIONS[this.state.questionIndex + 1] != undefined) {
+        this.setState(previousState => {
+          return { questionIndex: previousState.questionIndex + 1 }
+        });
     }
-    else {
 
+    // No questions remain
+    else {
+      AlertIOS.alert(
+        'All Done!',
+        'You answered ' + numRight + ' / ' + QUESTIONS.length + ' questions correctly.\nScore is ' + (numRight/QUESTIONS.length*100) + '%',
+        [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
+      );
     }
   }
 
   checkAnswer(ans) {
     //sets value of key to the index of correct answer for current question
-    var key = QUESTIONS[this.state.questionIndex].key;
+    var ansKey = QUESTIONS[this.state.questionIndex].ansKey;
     //user enters the right answer
-    if (ans == key) {
+    if (ans == ansKey) {
       AlertIOS.alert(
         'Correct!',
-        'Answer ' + key,
-        [{text: 'Move On', onPress: () => this._MoveOn('correct'), style: 'default'}]
+        'Answer ' + ansKey,
+        [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
+      numRight += 1;
     }
     //user enters incorrect answer
     else {
       AlertIOS.alert(
         'Incorrect',
-        'Correct answer was: \nAnswer ' + key,
-        [{text: 'Move On', onPress: () => this._MoveOn('incorrect'), style: 'default'}]
+        'Correct answer is: \nAnswer ' + ansKey,
+        [{text: 'Move On', onPress: () => this._MoveOn(),style: 'default'}]
       );
     }
   }
@@ -110,6 +135,13 @@ export default class App extends Component {
     });
   }
 
+  testParse() {
+    AlertIOS.alert(
+      'test?!',
+      parseLine.data[0][1],
+    );
+  }
+
   render() {
     return (
       <Container style={styles.container}>
@@ -123,33 +155,33 @@ export default class App extends Component {
           <Text style={styles.question}>
             {QUESTIONS[this.state.questionIndex].question}
           </Text>
-
-          <Button block light onPress={() => this.checkAnswer(1)}>
+          
+          <Button key='AB1' block light onPress={() => this.checkAnswer(1)}>
             <Text>{QUESTIONS[this.state.questionIndex].answers[0]}</Text>
           </Button>
 
-            <Button onPress={() => this.checkAnswer(2)}><Text>{QUESTIONS[this.state.questionIndex].answers[1]}</Text></Button>
+          <Button key='AB2' block light onPress={() => this.checkAnswer(2)}>
+            <Text>{QUESTIONS[this.state.questionIndex].answers[1]}</Text>
+          </Button>
 
-          <Button onPress={() => this.checkAnswer(3)}>
+          <Button key='AB3' block light onPress={() => this.checkAnswer(3)}>
             <Text>{QUESTIONS[this.state.questionIndex].answers[2]}</Text>
           </Button>
 
-          <Button onPress={() => this.checkAnswer(4)}>
+          <Button key='AB4' block light onPress={() => this.checkAnswer(4)}>
             <Text>{QUESTIONS[this.state.questionIndex].answers[2]}</Text>
+          </Button>
+
+          <Button onPress={() => this.testParse()}>
+            <Text>TEST PARSE</Text>
           </Button>
         </Content>
 
         <Footer>
           <FooterTab>
-            <Button>
-              <Text>Button 1</Text>
-            </Button>
-            <Button>
-              <Text>Button 2</Text>
-            </Button>
-            <Button>
-              <Text>Button 3</Text>
-            </Button>
+            <ProgressViewIOS progress={50} progressTintColor='red'>
+            </ProgressViewIOS>
+            <Text>Test</Text>
           </FooterTab>
         </Footer>
       </Container>

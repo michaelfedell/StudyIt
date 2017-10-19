@@ -1,2 +1,2 @@
-# StudyIt - Personal Project by Miachael Fedell
+# StudyIt - Personal Project by Michael Fedell
 Build info to come soon
