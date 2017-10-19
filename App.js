@@ -23,24 +23,9 @@ import {
 } from "native-base";
 import { AlertIOS, ProgressViewIOS } from 'react-native';
 import styles from "./styles";
-//import Papa from 'papaparse';
 
-/*const QUESTIONS = [
-  {question: 'Sample Question Text 1', answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'], ansKey: 1},
-  {question: 'Sample Question Text 2', answers: ['answer 1', 'answer 2', 'answer 3', 'answer 4'], ansKey: 2},
-  {question: 'Sample Question Text 3', answers: ['ANSWER 1', 'ANSWER 2', 'ANSWER 3', 'ANSWER 4'], ansKey: 3},
-];*/
-
+//Global variables to be used by the program
 const data = require('./ch15data.json');
-
-
-
-//const parsedData = Papa.parse(file);
-
-/*const parseLine = Papa.parse('1,Which one of the following statement is correct:?,4,The House of Representatives has the power to declare war.,Only the president can declare war.,The Senate has the power to declare war,The House and Senate have collectively the power to declare war.');*/
-
-
-
 let numRight = 0;
 
 export default class App extends Component {
