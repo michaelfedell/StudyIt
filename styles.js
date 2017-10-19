@@ -4,7 +4,8 @@ const { StyleSheet } = React;
 
 export default {
   container: {
-    backgroundColor: "#FFF"
+    backgroundColor: "#FFF",
+    
   },
 
   question: {
@@ -14,18 +15,21 @@ export default {
     marginBottom: 15,
     borderBottomWidth: 1,
     borderBottomColor: 'grey',
-  },
-
-  separator: {
-    height: 20,
-    borderBottomWidth: 1,
-    borderBottomColor: 'grey',
-    marginBottom: 5,
+    
   },
 
   finish: {
-    bottom: 10,
-    bottom: 0,
+  },
+
+  ab: {
+    marginBottom: 10,
+    borderWidth: 2,
+    borderColor: 'grey',
+    padding: 5,
+    alignItems: 'flex-start',
+    flexDirection: 'column',
+    paddingTop: 20,
+    paddingBottom: 20,
   }
 
 };

@@ -48,7 +48,7 @@ export default class App extends Component {
   }
 
   _MoveOn() {
-    // Need to add check for hasNextQuestion
+    // Need to check for hasNextQuestion
     if (data[this.state.questionIndex + 1] != undefined) {
         this.setState(previousState => {
           return { questionIndex: previousState.questionIndex + 1 }
@@ -57,35 +57,36 @@ export default class App extends Component {
 
     // No questions remain
     else {
-      this.grade();
+      this.grade(this.state.questionIndex + 1);
     }
   }
 
-  grade() {
+  grade(numAnswered) {
     AlertIOS.alert(
       'All Done!',
-      'You answered ' + numRight + ' / ' + this.state.questionIndex + ' questions correctly.\nScore is ' + (numRight/this.state.questionIndex*100) + '%',
+      'You answered ' + numRight + ' / ' + numAnswered + ' questions correctly.\nScore is ' + (numRight/numAnswered*100) + '%',
       [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
     );
   }
 
   checkAnswer(ans) {
     //sets value of key to the index of correct answer for current question
-    var ansKey = data[this.state.questionIndex].Key;
+    let ansKey = Number.parseInt(data[this.state.questionIndex].Key);
     //user enters the right answer
     if (ans == ansKey) {
+      numRight += 1;
+      
       AlertIOS.alert(
         'Correct!',
-        'Answer ' + ansKey,
+        'You\'ve answered ' + numRight + ' questions correctly!',
         [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
-      numRight += 1;
     }
     //user enters incorrect answer
     else {
       AlertIOS.alert(
         'Incorrect',
-        'Correct answer is: \nAnswer ' + ansKey,
+        'Correct answer is:\n' + Object.values(data[this.state.questionIndex])[ansKey+2],
         [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
     }
@@ -137,37 +138,43 @@ export default class App extends Component {
 
   render() {
     return (
-      <Container style={styles.container}>
+      <Container>
         <Header>
           <Body>
             <Title>Question {this.state.questionIndex + 1}</Title>
           </Body>
         </Header>
 
-        <Content padder>
+        <Content padder style={styles.contentWrapper}>
           <Text style={styles.question}>
             {data[this.state.questionIndex].Question}
           </Text>
 
-          <Button key='AB1' block light onPress={() => this.checkAnswer(1)}>
+          <Button key='AB1' block light style={styles.ab} onPress={() => this.checkAnswer(1)}>
             <Text>{data[this.state.questionIndex].Answer_1}</Text>
           </Button>
 
-          <Button key='AB2' block light onPress={() => this.checkAnswer(2)}>
+          <Button key='AB2' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(2)}>
             <Text>{data[this.state.questionIndex].Answer_2}</Text>
           </Button>
 
-          <Button key='AB3' block light onPress={() => this.checkAnswer(3)}>
+          <Button key='AB3' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(3)}>
             <Text>{data[this.state.questionIndex].Answer_3}</Text>
           </Button>
 
-          <Button key='AB4' block light onPress={() => this.checkAnswer(4)}>
+          <Button key='AB4' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(4)}>
             <Text>{data[this.state.questionIndex].Answer_4}</Text>
           </Button>
 
-          <Button style={styles.finish} danger full onPress={() => this.grade()}>
-            <Text>Finish</Text>
-          </Button>
+          <View style={styles.finish}>
+            <Button danger full 
+            onPress={() => this.grade(this.state.questionIndex)}>
+              <Text>Finish</Text>
+            </Button>
+          </View>
         </Content>
 
         <Footer>
