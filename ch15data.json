@@ -1,0 +1,875 @@
+[
+  {
+    "QNum": "1",
+    "Question": "Which one of the following statement is correct:?",
+    "Key": "4",
+    "Answer_1": "The House of Representatives has the power to declare war.",
+    "Answer_2": "Only the president can declare war.",
+    "Answer_3": "The Senate has the power to declare war",
+    "Answer_4": "The House and Senate have collectively the power to declare war."
+  },
+  {
+    "QNum": "2",
+    "Question": "For a bill to be pocket vetoed, Congress must be",
+    "Key": "3",
+    "Answer_1": "in session.",
+    "Answer_2": "in adjournment.",
+    "Answer_3": "in committee.",
+    "Answer_4": "prepared to act."
+  },
+  {
+    "QNum": "3",
+    "Question": "If the president holds a bill for ten days while Congress remains in session, what happens to the bill?",
+    "Key": "4",
+    "Answer_1": "It is vetoed.",
+    "Answer_2": "It goes back to conference committee.",
+    "Answer_3": "It becomes law.",
+    "Answer_4": "It is pocket vetoed."
+  }]/*
+  {
+    "QNum": "4",
+    "Question": "The War Powers Resolution of 1973 is an example of",
+    "Key": "4",
+    "Answer_1": "delegation of power.",
+    "Answer_2": "presidential delegation.",
+    "Answer_3": "reassertion of congressional authority.",
+    "Answer_4": "presidential discretionary authority."
+  },
+  {
+    "QNum": "5",
+    "Question": "The District of Columbia",
+    "Key": "4",
+    "Answer_1": "has no electoral votes.",
+    "Answer_2": "was given 3 electoral votes by Article II of the Constitution.",
+    "Answer_3": "has 1 electoral vote.",
+    "Answer_4": "was given 3 electoral votes by the Twenty-third Amendment to the Constitution."
+  },
+  {
+    "QNum": "6",
+    "Question": "Historically, the Senate ratifies __________ percent of the treaties submitted to it.",
+    "Key": "3",
+    "Answer_1": "30",
+    "Answer_2": "50",
+    "Answer_3": "70",
+    "Answer_4": "90"
+  },
+  {
+    "QNum": "7",
+    "Question": "Agreements that the president enters into with foreign nations that do not require the advise and consent of the Senate, are called",
+    "Key": "4",
+    "Answer_1": "executive agreements.",
+    "Answer_2": "executive orders.",
+    "Answer_3": "treaties.",
+    "Answer_4": "covenants."
+  },
+  {
+    "QNum": "8",
+    "Question": "The line-item veto was originally proposed by",
+    "Key": "2",
+    "Answer_1": "Ronald Reagan.",
+    "Answer_2": "Woodrow Wilson.",
+    "Answer_3": "Herbert Hoover.",
+    "Answer_4": "Ulysses S. Grant."
+  },
+  {
+    "QNum": "9",
+    "Question": "The president's authority over the military comes from",
+    "Key": "4",
+    "Answer_1": "treaty powers.",
+    "Answer_2": "Congress.",
+    "Answer_3": "being Commander in Chief.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "10",
+    "Question": "One of the president's checks on judicial power is",
+    "Key": "2",
+    "Answer_1": "the line-item veto.",
+    "Answer_2": "the pardon.",
+    "Answer_3": "impeachment.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "11",
+    "Question": "President __________ used the pardoning power to give unconditional amnesty to 10,000 men who had avoided the draft during the Vietnam War.",
+    "Key": "4",
+    "Answer_1": "Nixon",
+    "Answer_2": "Bush",
+    "Answer_3": "Carter",
+    "Answer_4": "Clinton"
+  },
+  {
+    "QNum": "12",
+    "Question": "Three presidents have been defeated for reelection partly due to unpopular use of the pardoning power. They were",
+    "Key": "3",
+    "Answer_1": "A. Johnson, Pierce, and Hoover.",
+    "Answer_2": "Truman, L.B.J., and Ford",
+    "Answer_3": "Adams, T. Roosevelt, and Truman.",
+    "Answer_4": "Ford, Carter, and Bush."
+  },
+  {
+    "QNum": "13",
+    "Question": "The only president elected to two nonconsecutive terms was",
+    "Key": "1",
+    "Answer_1": "Grover Cleveland.",
+    "Answer_2": "Benjamin Harrison.",
+    "Answer_3": "Millard Fillmore.",
+    "Answer_4": "Lyndon Baines Johnson."
+  },
+  {
+    "QNum": "14",
+    "Question": "The powers of the president that can be derived from specific powers listed in the Constitution are called __________ powers.",
+    "Key": "4",
+    "Answer_1": "implicit",
+    "Answer_2": "latent",
+    "Answer_3": "inherent",
+    "Answer_4": "enumerated"
+  },
+  {
+    "QNum": "15",
+    "Question": "The first president to act as a strong national leader was",
+    "Key": "2",
+    "Answer_1": "Washington.",
+    "Answer_2": "Jackson.",
+    "Answer_3": "Lincoln.",
+    "Answer_4": "Wilson."
+  },
+  {
+    "QNum": "16",
+    "Question": "The general trend, in the twentieth century, has been toward a more powerful president. This is due to",
+    "Key": "3",
+    "Answer_1": "a series of crises beginning with the Great Depression.",
+    "Answer_2": "the slowness of Congress to respond to fast-changing events.",
+    "Answer_3": "CNN.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "17",
+    "Question": "The Cabinet system was established by",
+    "Key": "4",
+    "Answer_1": "Article II.",
+    "Answer_2": "statute.",
+    "Answer_3": "tradition.",
+    "Answer_4": "Thomas Jefferson."
+  },
+  {
+    "QNum": "18",
+    "Question": "Under George W. Bush, the executive branch of government employed more than __________ million people.",
+    "Key": "4",
+    "Answer_1": "2",
+    "Answer_2": "5",
+    "Answer_3": "7",
+    "Answer_4": "10"
+  },
+  {
+    "QNum": "19",
+    "Question": "The most powerful First Lady in history was",
+    "Key": "2",
+    "Answer_1": "Hillary Clinton.",
+    "Answer_2": "Edith Wilson.",
+    "Answer_3": "Eleanor Roosevelt.",
+    "Answer_4": "Abigail Adams."
+  },
+  {
+    "QNum": "20",
+    "Question": "The membership of the Cabinet is determined by the",
+    "Key": "1",
+    "Answer_1": "Constitution.",
+    "Answer_2": "number of departments in the bureaucracy.",
+    "Answer_3": "President.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "21",
+    "Question": "According to James Barber's classification system, President Richard Nixon would be classified as:",
+    "Key": "4",
+    "Answer_1": "active-negative",
+    "Answer_2": "passive-positive",
+    "Answer_3": "active-positive",
+    "Answer_4": "passive-negative"
+  },
+  {
+    "QNum": "22",
+    "Question": "Removal of an official by impeachment proceedings requires a",
+    "Key": "2",
+    "Answer_1": "majority vote in the House and 2/3 vote in the Senate",
+    "Answer_2": "majority vote in the Senate and 2/3 vote in the House",
+    "Answer_3": "majority vote in both Houses and conviction by the Supreme Court",
+    "Answer_4": "3/4 vote in the Senate alone"
+  },
+  {
+    "QNum": "23",
+    "Question": "According to Barber, presidents who enjoy their jobs and exert great energy in performing their presidential functions are:",
+    "Key": "1",
+    "Answer_1": "active-positive",
+    "Answer_2": "active-negative",
+    "Answer_3": "passive-positive",
+    "Answer_4": "passive-negative"
+  },
+  {
+    "QNum": "24",
+    "Question": "According to James Barber's classification system, President Dwight Eisenhower would be classified as:",
+    "Key": "1",
+    "Answer_1": "active-negative",
+    "Answer_2": "passive-positive",
+    "Answer_3": "active-positive",
+    "Answer_4": "passive-negative"
+  },
+  {
+    "QNum": "25",
+    "Question": "When an executive such as the president refuses to spend appropriated funds, the action is called:",
+    "Key": "3",
+    "Answer_1": "treason",
+    "Answer_2": "creative financing",
+    "Answer_3": "impoundment",
+    "Answer_4": "pecuniary containment"
+  },
+  {
+    "QNum": "26",
+    "Question": "To override a presidential veto requires:",
+    "Key": "2",
+    "Answer_1": "a 2/3 vote in either house of Congress.",
+    "Answer_2": "a 2/3 vote in each house of Congress.",
+    "Answer_3": "a simple majority vote in both houses of Congress.",
+    "Answer_4": "a 3/4 votes in both houses of Congress"
+  },
+  {
+    "QNum": "27",
+    "Question": "According to the 25th Amendment, if a dispute arises over the president's ability to discharge his normal functions",
+    "Key": "1",
+    "Answer_1": "the Supreme Court is empowered to select a qualified doctor to certify whether or not the president is able to function properly.",
+    "Answer_2": "the Speaker of the House will become acting president until the dispute is resolved.",
+    "Answer_3": "a 2/3 vote of Congress is required to install the vice president as acting president.",
+    "Answer_4": "the Senate is required to hold an open trial to judge the competency of the president."
+  },
+  {
+    "QNum": "28",
+    "Question": "The electoral college:",
+    "Key": "3",
+    "Answer_1": "makes each state equally important to Presidential candidates",
+    "Answer_2": "makes populous states more important to candidates",
+    "Answer_3": "is selected by state legislatures",
+    "Answer_4": "was intended to merely rubber-stamp"
+  },
+  {
+    "QNum": "29",
+    "Question": "What happens if no presidential candidate receives a majority of the electoral vote?",
+    "Key": "4",
+    "Answer_1": "The election is thrown into the Senate.",
+    "Answer_2": "The choice is made by the Supreme Court from the two highest vote winners.",
+    "Answer_3": "There is a runoff election.",
+    "Answer_4": "The election is thrown into the House of Representatives."
+  },
+  {
+    "QNum": "30",
+    "Question": "What is the number of electoral votes needed to win the presidency?",
+    "Key": "3",
+    "Answer_1": "100",
+    "Answer_2": "250",
+    "Answer_3": "270",
+    "Answer_4": "538"
+  },
+  {
+    "QNum": "31",
+    "Question": "In the electoral college, each state is accorded a number of electoral votes",
+    "Key": "1",
+    "Answer_1": "equal to the number of that state's representatives and senators in Congress.",
+    "Answer_2": "equal to the number of delegates it sends to the national party conventions.",
+    "Answer_3": "equal to the number of representatives in the respective state legislature.",
+    "Answer_4": "equal to the number of voters in the state."
+  },
+  {
+    "QNum": "32",
+    "Question": "The Budget and Impoundment Control Act of 1974 requires",
+    "Key": "4",
+    "Answer_1": "Congress to appropriate a budget that is not more than 10% above president's request.",
+    "Answer_2": "the president to submit a balanced budget to Congress.",
+    "Answer_3": "Congress and the president to reach a compromise on the budget no later than April 30 of each year.",
+    "Answer_4": "the president to spend money Congress has appropriated unless Congress agrees the money should not be spent."
+  },
+  {
+    "QNum": "33",
+    "Question": "According to the War Powers Act",
+    "Key": "3",
+    "Answer_1": "the president must report to Congress within 48 hours of sending military forces into action",
+    "Answer_2": "Congress may not approve of the president's action forcing the president to recall the troops within 60 days.",
+    "Answer_3": "Congress will take charge of ultimate military decisions after a formal Declaration of War.",
+    "Answer_4": "both a and b."
+  },
+  {
+    "QNum": "34",
+    "Question": "The National Security Council is a link between",
+    "Key": "1",
+    "Answer_1": "Congress and the president.",
+    "Answer_2": "leaders of foreign governments and the president.",
+    "Answer_3": "the Security and Exchange Commission and the president.",
+    "Answer_4": "the president's key foreign and military advisors and the president."
+  },
+  {
+    "QNum": "35",
+    "Question": "The impeachment trial in the Senate of a president is presided over by the",
+    "Key": "4",
+    "Answer_1": "Vice President",
+    "Answer_2": "Speaker of the House",
+    "Answer_3": "Chief Justice of the Supreme Court",
+    "Answer_4": "Secretary of State"
+  },
+  {
+    "QNum": "36",
+    "Question": "A power which the President does not have over Congress is",
+    "Key": "3",
+    "Answer_1": "pocket veto",
+    "Answer_2": "item veto",
+    "Answer_3": "call a special session",
+    "Answer_4": "deliver messages to Congress"
+  },
+  {
+    "QNum": "37",
+    "Question": "a pocket veto",
+    "Key": "1",
+    "Answer_1": "can be used by a president only once during his term in office (twice if he serves two terms).",
+    "Answer_2": "can only be used when Congress has adjourned for the session.",
+    "Answer_3": "can become law if 2/3 of both houses override the veto.",
+    "Answer_4": "was declared unconstitutional by the Supreme Court in the case of Graham v. Henslick (1963)."
+  },
+  {
+    "QNum": "38",
+    "Question": "A major difference between a treaty and an executive agreement is",
+    "Key": "2",
+    "Answer_1": "that a treaty must be approved by the Senate and an executive agreement does not need the Senate's approval.",
+    "Answer_2": "the treaties have been used exclusively in the 20th century while executive agreements were used only prior to the 20th century.",
+    "Answer_3": "that treaties can be secret while and executive agreement must be approved by the World Court.",
+    "Answer_4": "both a and c."
+  },
+  {
+    "QNum": "39",
+    "Question": "The only presidents to be impeached was",
+    "Key": "1",
+    "Answer_1": "Richard Nixon and Andrew Johnson",
+    "Answer_2": "William Henry Harrison and Richard Nixon",
+    "Answer_3": "Andrew Johnson and William J. Clinton",
+    "Answer_4": "Andrew Jackson and William J. Clinton"
+  },
+  {
+    "QNum": "40",
+    "Question": "All of the following are constitutional functions of the of the vice president except",
+    "Key": "3",
+    "Answer_1": "to preside over the Senate.",
+    "Answer_2": "to cast a vote to break a tie vote in the Senate.",
+    "Answer_3": "to preside over Cabinet meetings.",
+    "Answer_4": "to succeed the president should the president die."
+  },
+  {
+    "QNum": "41",
+    "Question": "Presidential electors (members of the electoral college)",
+    "Key": "1",
+    "Answer_1": "must vote for the candidate of their own party.",
+    "Answer_2": "must vote for the candidate who received the most votes in their state.",
+    "Answer_3": "must vote for the candidate who received the most votes in their congressional district.",
+    "Answer_4": "can vote for whomever they want."
+  },
+  {
+    "QNum": "42",
+    "Question": "Under the Twenty-second Amendment, the incumbent president must normally change at least once every",
+    "Key": "3",
+    "Answer_1": "four years",
+    "Answer_2": "eight years",
+    "Answer_3": "decade",
+    "Answer_4": "session of Congress"
+  },
+  {
+    "QNum": "43",
+    "Question": "The great authority given to the president by the framers of the Constitution was limited by the",
+    "Key": "4",
+    "Answer_1": "separation of powers among the three branches of government",
+    "Answer_2": "checks and balances engraved in the Constitution",
+    "Answer_3": "federal system",
+    "Answer_4": "all of the above"
+  },
+  {
+    "QNum": "44",
+    "Question": "Which of the following roles of the president is not required of him by the Constitution?",
+    "Key": "2",
+    "Answer_1": "chief executive",
+    "Answer_2": "commander in chief",
+    "Answer_3": "chief of party",
+    "Answer_4": "chief legislator"
+  },
+  {
+    "QNum": "45",
+    "Question": "The executive power is vested in a president of the United States under",
+    "Key": "4",
+    "Answer_1": "the Bill of Rights",
+    "Answer_2": "the Supreme Court ruling in�McCulloch v. Maryland",
+    "Answer_3": "Article I of the Constitution",
+    "Answer_4": "Article II of the Constitution"
+  },
+  {
+    "QNum": "46",
+    "Question": "Congress declared war",
+    "Key": "2",
+    "Answer_1": "in 1964 after passage of the Tonkin Gulf resolution",
+    "Answer_2": "in 1941 after Japan attacked Pearl Harbor",
+    "Answer_3": "in 1991 when American forces were sent to the Persian Gulf",
+    "Answer_4": "in 1950 at the start of the Korean War"
+  },
+  {
+    "QNum": "47",
+    "Question": "Which of the following weapons of presidential power was eliminated by the Congressional Budget Act of 1974?",
+    "Key": "4",
+    "Answer_1": "executive privilege",
+    "Answer_2": "pocket veto",
+    "Answer_3": "line-item veto",
+    "Answer_4": "impoundment of funds"
+  },
+  {
+    "QNum": "48",
+    "Question": "Which of the following is not a component of the Executive Office of the President?",
+    "Key": "4",
+    "Answer_1": "the National Security Council",
+    "Answer_2": "the cabinet",
+    "Answer_3": "the Office of Management and Budget",
+    "Answer_4": "the Council of Economic Advisers"
+  },
+  {
+    "QNum": "49",
+    "Question": "The members of the Cabinet are:",
+    "Key": "4",
+    "Answer_1": "elected along with the president.",
+    "Answer_2": "appointed by the president and confirmed by the Senate.",
+    "Answer_3": "appointed by the Congress.",
+    "Answer_4": "appointed by the president and approved by the Supreme Court."
+  },
+  {
+    "QNum": "50",
+    "Question": "The Office of Management and Budget, and National Security Council, and the Council of Economic Advisors are all:",
+    "Key": "4",
+    "Answer_1": "departments in the president's Cabinet.",
+    "Answer_2": "committees chosen by Congress to advise the president.",
+    "Answer_3": "committees within Congress.",
+    "Answer_4": "part of the Executive Office of the President."
+  },
+  {
+    "QNum": "51",
+    "Question": "The organization of the White House staff is",
+    "Key": "2",
+    "Answer_1": "determined by the congressional leadership.",
+    "Answer_2": "subject to Senate approval.",
+    "Answer_3": "constitutionally mandated.",
+    "Answer_4": "determined by each president according to personal need."
+  },
+  {
+    "QNum": "52",
+    "Question": "The main function of the Office of Management and Budget is to:",
+    "Key": "4",
+    "Answer_1": "reorganize the executive branch of government as needed.",
+    "Answer_2": "prepare the executive budget.",
+    "Answer_3": "manage the economy.",
+    "Answer_4": "plan presidential campaigns."
+  },
+  {
+    "QNum": "53",
+    "Question": "Most presidents in the last two decades have been judged rather harshly. This may be because",
+    "Key": "1",
+    "Answer_1": "the electorate has heightened expectations about what the president can and should accomplish.",
+    "Answer_2": "of a skeptical citizenry.",
+    "Answer_3": "we have debunked the myths of the presidency.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "54",
+    "Question": "Under the Constitution, the qualifications for president include that the president must be",
+    "Key": "3",
+    "Answer_1": "over 35 years old and a natural born citizen.",
+    "Answer_2": "male, an American citizen, and a resident for at least 14 years.",
+    "Answer_3": "experienced in politics and law, over 30 years old, and a citizen.",
+    "Answer_4": "mature and a citizen for at least 14 years."
+  },
+  {
+    "QNum": "55",
+    "Question": "The president's term is __________ years.",
+    "Key": "1",
+    "Answer_1": "2",
+    "Answer_2": "4",
+    "Answer_3": "6",
+    "Answer_4": "8"
+  },
+  {
+    "QNum": "56",
+    "Question": "The first president of the United States was",
+    "Key": "2",
+    "Answer_1": "Thomas Jefferson.",
+    "Answer_2": "James Madison.",
+    "Answer_3": "John Adams.",
+    "Answer_4": "George Washington."
+  },
+  {
+    "QNum": "57",
+    "Question": "The president is limited to two terms or ten years due to the ratification of the __________ Amendment.",
+    "Key": "4",
+    "Answer_1": "16th",
+    "Answer_2": "19th",
+    "Answer_3": "22nd",
+    "Answer_4": "25th"
+  },
+  {
+    "QNum": "58",
+    "Question": "The process of bringing charges against a public official is called",
+    "Key": "4",
+    "Answer_1": "impeachment.",
+    "Answer_2": "removal.",
+    "Answer_3": "recall.",
+    "Answer_4": "initiative."
+  },
+  {
+    "QNum": "59",
+    "Question": "In order to remove a president or federal judge from office, the House must impeach, and then",
+    "Key": "3",
+    "Answer_1": "50 percent plus one of the Senate must vote for removal.",
+    "Answer_2": "two-thirds of the Senate must vote for removal.",
+    "Answer_3": "both houses must have a majority vote for removal.",
+    "Answer_4": "both houses must have a two-thirds majority for removal."
+  },
+  {
+    "QNum": "60",
+    "Question": "The first president to die in office was",
+    "Key": "2",
+    "Answer_1": "Franklin Delano Roosevelt.",
+    "Answer_2": "James Garfield.",
+    "Answer_3": "John F. Kennedy.",
+    "Answer_4": "William Henry Harrison."
+  },
+  {
+    "QNum": "61",
+    "Question": "If the president dies in office and the vice presidency is vacant, the next in line of succession is",
+    "Key": "3",
+    "Answer_1": "President Pro Tempore of the Senate.",
+    "Answer_2": "Secretary of Defense.",
+    "Answer_3": "Speaker of the House.",
+    "Answer_4": "Secretary of State."
+  },
+  {
+    "QNum": "62",
+    "Question": "Among the constitutional powers of the vice president is to",
+    "Key": "1",
+    "Answer_1": "preside over the Senate.",
+    "Answer_2": "vote in the Senate in the event of a tie.",
+    "Answer_3": "fill in for the president.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "63",
+    "Question": "Presidents often have chosen a vice presidential running mate to",
+    "Key": "1",
+    "Answer_1": "balance their electoral ticket geographically.",
+    "Answer_2": "ideologically agree with their positions.",
+    "Answer_3": "have significant powers.",
+    "Answer_4": "all of the above"
+  },
+  {
+    "QNum": "64",
+    "Question": "The strongest and most active vice president to date has been",
+    "Key": "4",
+    "Answer_1": "John Nance Garner.",
+    "Answer_2": "Walter Mondale.",
+    "Answer_3": "Dick Cheney.",
+    "Answer_4": "George Bush."
+  },
+  {
+    "QNum": "65",
+    "Question": "The president, under Article II, has the power to make treaties limited by",
+    "Key": "1",
+    "Answer_1": "the House Foreign Relations Committee.",
+    "Answer_2": "the advise and consent of the Senate.",
+    "Answer_3": "State Department rules.",
+    "Answer_4": "nothing."
+  },
+  {
+    "QNum": "66",
+    "Question": "In the 1992 Presidential election, Mario Cuomo gets 22 million popular votes and 262 votes in the electoral college. Jack Kemp gets 20 million popular votes and 276 votes in the electoral college. Who becomes president?",
+    "Key": "3",
+    "Answer_1": "Cuomo",
+    "Answer_2": "Kemp",
+    "Answer_3": "Neither... until the House of Representatives meets and chooses a president.",
+    "Answer_4": "The incumbent vice-president becomes acting president."
+  },
+  {
+    "QNum": "67",
+    "Question": "Which of the following best describes the relationship between a president's public popularity and his political power?",
+    "Key": "2",
+    "Answer_1": "There is no relationship between the two.",
+    "Answer_2": "Public popularity is important to the president only at election time.",
+    "Answer_3": "high public support can be translated into real political power.",
+    "Answer_4": "Presidents have no means of measuring public support."
+  },
+  {
+    "QNum": "68",
+    "Question": "Which of the following presidential powers is not shared with Congress?",
+    "Key": "4",
+    "Answer_1": "The war powers",
+    "Answer_2": "Appointment powers",
+    "Answer_3": "Treaty powers",
+    "Answer_4": "Granting of pardons and reprieves"
+  },
+  {
+    "QNum": "69",
+    "Question": "The primary purpose of the Twenty-fifth Amendment was to",
+    "Key": "3",
+    "Answer_1": "limit the president to two terms.",
+    "Answer_2": "restrict presidential war powers.",
+    "Answer_3": "provide a mechanism to replace a living president who becomes incapacitated.",
+    "Answer_4": "abolish the electoral college."
+  },
+  {
+    "QNum": "70",
+    "Question": "If the president does not sign a bill and 10 congressional working days go by,",
+    "Key": "3",
+    "Answer_1": "The bill becomes law.",
+    "Answer_2": "The bill dies.",
+    "Answer_3": "Congress must adjourn.",
+    "Answer_4": "Congress must override it."
+  },
+  {
+    "QNum": "71",
+    "Question": "Executive agreements differ from treaties mainly in that:",
+    "Key": "4",
+    "Answer_1": "they are not binding on the United States.",
+    "Answer_2": "they do not involve very significant arrangements.",
+    "Answer_3": "they do not require congressional approval.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "72",
+    "Question": "Members of the President's cabinet have the right to vote",
+    "Key": "1",
+    "Answer_1": "House only",
+    "Answer_2": "Senate only",
+    "Answer_3": "neither House",
+    "Answer_4": "both Houses"
+  },
+  {
+    "QNum": "73",
+    "Question": "The President performs his function as \"symbol of the nation\" when he:",
+    "Key": "2",
+    "Answer_1": "delivers his State of the Union Address.",
+    "Answer_2": "toasts foreign dignitaries.",
+    "Answer_3": "dedicates a National arts Center.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "74",
+    "Question": "The most important facet of the vice president's job is being:",
+    "Key": "2",
+    "Answer_1": "president of the Senate.",
+    "Answer_2": "next in line for the presidency.",
+    "Answer_3": "a member of the Cabinet.",
+    "Answer_4": "presiding officer of the National Security Council."
+  },
+  {
+    "QNum": "75",
+    "Question": "Attempts to curb the president's powers as commander-in-chief of the armed forces have included all of the following EXCEPT:",
+    "Key": "3",
+    "Answer_1": "requiring the president to wait for Congress' approval to respond to a nuclear attack.",
+    "Answer_2": "budget cuts by Congress in the president's proposals",
+    "Answer_3": "the 1973 War Powers resolution.",
+    "Answer_4": "public opposition to intended military operations."
+  },
+  {
+    "QNum": "76",
+    "Question": "Age requirements for Senators and Representatives are",
+    "Key": "3",
+    "Answer_1": "26 and 21",
+    "Answer_2": "30 and 25",
+    "Answer_3": "35 and 30",
+    "Answer_4": "40 and 35"
+  },
+  {
+    "QNum": "77",
+    "Question": "If a vice president becomes president between elections, a new vice president is:",
+    "Key": "2",
+    "Answer_1": "elected by the people.",
+    "Answer_2": "selected by Congress.",
+    "Answer_3": "nominated by the president and confirmed by Congress.",
+    "Answer_4": "is not chosen until the next election."
+  },
+  {
+    "QNum": "78",
+    "Question": "Using James Barber's classification system, active-negative presidents are described as:",
+    "Key": "1",
+    "Answer_1": "dutiful but vague and bent on avoiding conflict.",
+    "Answer_2": "compulsive, aggressive, emphasize getting and keeping power.",
+    "Answer_3": "flexible, have high self-esteem, and set store in results.",
+    "Answer_4": "compliant and want the affection of others."
+  },
+  {
+    "QNum": "79",
+    "Question": "Using James Barber's classification system, passive-positive presidents are described as:",
+    "Key": "3",
+    "Answer_1": "dutiful but vague and bent on avoiding conflict.",
+    "Answer_2": "compulsive, aggressive, emphasize getting and keeping power.",
+    "Answer_3": "flexible, have high self-esteem, and set store in results.",
+    "Answer_4": "compliant and want the affection of others."
+  },
+  {
+    "QNum": "80",
+    "Question": "According to James Barber's classification system, President F. Roosevelt would be classified as:",
+    "Key": "1",
+    "Answer_1": "active-negative",
+    "Answer_2": "active-positive",
+    "Answer_3": "passive-positive",
+    "Answer_4": "passive-negative"
+  },
+  {
+    "QNum": "81",
+    "Question": "The Executive Office of the President was established in 1939 to",
+    "Key": "3",
+    "Answer_1": "formalize the informal structure of the Cabinet.",
+    "Answer_2": "act as a liaison with the legislative branch.",
+    "Answer_3": "aid in the war effort.",
+    "Answer_4": "help the president manage the bureaucracy."
+  },
+  {
+    "QNum": "82",
+    "Question": "In 1947, the __________ was established to advise the president on military affairs and foreign policy.",
+    "Key": "2",
+    "Answer_1": "National Security Council",
+    "Answer_2": "Central Intelligence Agency",
+    "Answer_3": "Council on Foreign Relations",
+    "Answer_4": "Executive Office of the President"
+  },
+  {
+    "QNum": "83",
+    "Question": "White House staff employee members",
+    "Key": "1",
+    "Answer_1": "are confirmed by the Senate, like all presidential appointments.",
+    "Answer_2": "derive their power from personal relationships with the president and have no legal authority.",
+    "Answer_3": "number over 2,000.",
+    "Answer_4": "number fewer than 50."
+  },
+  {
+    "QNum": "84",
+    "Question": "The first president to claim a leadership role for the executive branch in lawmaking was",
+    "Key": "4",
+    "Answer_1": "George Washington.",
+    "Answer_2": "Abraham Lincoln.",
+    "Answer_3": "Woodrow Wilson.",
+    "Answer_4": "Franklin Delano Roosevelt."
+  },
+  {
+    "QNum": "85",
+    "Question": "When the presidency and Congress are controlled by different parties it is called",
+    "Key": "3",
+    "Answer_1": "divided government.",
+    "Answer_2": "separation of powers.",
+    "Answer_3": "Taftian government.",
+    "Answer_4": "sequestration."
+  },
+  {
+    "QNum": "86",
+    "Question": "A president can set national policy and priorities through",
+    "Key": "4",
+    "Answer_1": "his budget proposal.",
+    "Answer_2": "the introduction of bills in Congress.",
+    "Answer_3": "the use of the impoundment power.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "87",
+    "Question": "The president's responsibilities in the budget process stem from",
+    "Key": "2",
+    "Answer_1": "enumerated powers.",
+    "Answer_2": "the Office of Management and Budget.",
+    "Answer_3": "the Civil War.",
+    "Answer_4": "FDR's response to the Great Depression."
+  },
+  {
+    "QNum": "88",
+    "Question": "The responsibilities of the Office of Management and Budget include",
+    "Key": "1",
+    "Answer_1": "preparing the president's budget program.",
+    "Answer_2": "reviewing the budget proposals of executive departments.",
+    "Answer_3": "supplying economic forecasts.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "89",
+    "Question": "Prior to Bill Clinton, the last president to sign a balanced budget was",
+    "Key": "3",
+    "Answer_1": "Herbert Hoover.",
+    "Answer_2": "Dwight D. Eisenhower.",
+    "Answer_3": "Richard Nixon.",
+    "Answer_4": "Ronald Reagan."
+  },
+  {
+    "QNum": "90",
+    "Question": "According to Thomas Cronin, a president has a number of ways to get his bills passed by Congress including",
+    "Key": "2",
+    "Answer_1": "by demanding party discipline.",
+    "Answer_2": "through the use of patronage.",
+    "Answer_3": "persuasion, personality, and leadership.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "91",
+    "Question": "The distribution of personal favors and rewards to political friends and allies is called",
+    "Key": "4",
+    "Answer_1": "politics.",
+    "Answer_2": "patronage.",
+    "Answer_3": "influence peddling.",
+    "Answer_4": "inherent power."
+  },
+  {
+    "QNum": "92",
+    "Question": "The difference between great and mediocre presidents often centers on their ability to grasp the importance of",
+    "Key": "3",
+    "Answer_1": "partisanship.",
+    "Answer_2": "patronage.",
+    "Answer_3": "leadership style.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "93",
+    "Question": "In his analysis of presidential character, James David Barber argued that the most successful presidents can be categorized as",
+    "Key": "4",
+    "Answer_1": "passive-negative.",
+    "Answer_2": "active-negative.",
+    "Answer_3": "passive-positive.",
+    "Answer_4": "active-positive."
+  },
+  {
+    "QNum": "94",
+    "Question": "The key to amassing greater power and authority for a president lies in",
+    "Key": "4",
+    "Answer_1": "the ability to persuade.",
+    "Answer_2": "the constitutional powers of office.",
+    "Answer_3": "partisanship.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "95",
+    "Question": "The president who reached out to public opinion by using his office as a \"bully pulpit\" was",
+    "Key": "1",
+    "Answer_1": "Abraham Lincoln.",
+    "Answer_2": "Calvin Coolidge.",
+    "Answer_3": "Teddy Roosevelt.",
+    "Answer_4": "Ronald Reagan."
+  },
+  {
+    "QNum": "96",
+    "Question": "Surges in presidential popularity often occur due to",
+    "Key": "3",
+    "Answer_1": "midterm elections.",
+    "Answer_2": "international events.",
+    "Answer_3": "public appearances.",
+    "Answer_4": "all of the above."
+  },
+  {
+    "QNum": "97",
+    "Question": "In general, the president is a(n)",
+    "Key": "4",
+    "Answer_1": "symbol of the nation.",
+    "Answer_2": "political organizer.",
+    "Answer_3": "key player in the policy process.",
+    "Answer_4": "all of the above."
+  }
+]*/
