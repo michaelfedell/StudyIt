@@ -48,7 +48,7 @@ export default class App extends Component {
   }
 
   _MoveOn() {
-    // Need to add check for hasNextQuestion
+    // Need to check for hasNextQuestion
     if (data[this.state.questionIndex + 1] != undefined) {
         this.setState(previousState => {
           return { questionIndex: previousState.questionIndex + 1 }
@@ -57,35 +57,36 @@ export default class App extends Component {
 
     // No questions remain
     else {
-      this.grade();
+      this.grade(this.state.questionIndex + 1);
     }
   }
 
-  grade() {
+  grade(numAnswered) {
     AlertIOS.alert(
       'All Done!',
-      'You answered ' + numRight + ' / ' + this.state.questionIndex + ' questions correctly.\nScore is ' + (numRight/this.state.questionIndex*100) + '%',
+      'You answered ' + numRight + ' / ' + numAnswered + ' questions correctly.\nScore is ' + (numRight/numAnswered*100) + '%',
       [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
     );
   }
 
   checkAnswer(ans) {
     //sets value of key to the index of correct answer for current question
-    var ansKey = data[this.state.questionIndex].Key;
+    let ansKey = Number.parseInt(data[this.state.questionIndex].Key);
     //user enters the right answer
     if (ans == ansKey) {
+      numRight += 1;
+      
       AlertIOS.alert(
         'Correct!',
-        'Answer ' + ansKey,
+        'You\'ve answered ' + numRight + ' questions correctly!',
         [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
-      numRight += 1;
     }
     //user enters incorrect answer
     else {
       AlertIOS.alert(
         'Incorrect',
-        'Correct answer is: \nAnswer ' + ansKey,
+        'Correct answer is:\n' + Object.values(data[this.state.questionIndex])[ansKey+2],
         [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
     }
@@ -137,7 +138,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Container style={styles.container}>
+      <Container>
         <Header>
           <Body>
             <Title>Question {this.state.questionIndex + 1}</Title>
@@ -170,7 +171,7 @@ export default class App extends Component {
 
           <View style={styles.finish}>
             <Button danger full 
-            onPress={() => this.grade()}>
+            onPress={() => this.grade(this.state.questionIndex)}>
               <Text>Finish</Text>
             </Button>
           </View>
