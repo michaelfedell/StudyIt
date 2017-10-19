@@ -144,30 +144,36 @@ export default class App extends Component {
           </Body>
         </Header>
 
-        <Content padder>
+        <Content padder style={styles.contentWrapper}>
           <Text style={styles.question}>
             {data[this.state.questionIndex].Question}
           </Text>
 
-          <Button key='AB1' block light onPress={() => this.checkAnswer(1)}>
+          <Button key='AB1' block light style={styles.ab} onPress={() => this.checkAnswer(1)}>
             <Text>{data[this.state.questionIndex].Answer_1}</Text>
           </Button>
 
-          <Button key='AB2' block light onPress={() => this.checkAnswer(2)}>
+          <Button key='AB2' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(2)}>
             <Text>{data[this.state.questionIndex].Answer_2}</Text>
           </Button>
 
-          <Button key='AB3' block light onPress={() => this.checkAnswer(3)}>
+          <Button key='AB3' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(3)}>
             <Text>{data[this.state.questionIndex].Answer_3}</Text>
           </Button>
 
-          <Button key='AB4' block light onPress={() => this.checkAnswer(4)}>
+          <Button key='AB4' block light style={styles.ab} 
+          onPress={() => this.checkAnswer(4)}>
             <Text>{data[this.state.questionIndex].Answer_4}</Text>
           </Button>
 
-          <Button style={styles.finish} danger full onPress={() => this.grade()}>
-            <Text>Finish</Text>
-          </Button>
+          <View style={styles.finish}>
+            <Button danger full 
+            onPress={() => this.grade()}>
+              <Text>Finish</Text>
+            </Button>
+          </View>
         </Content>
 
         <Footer>

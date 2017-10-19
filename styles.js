@@ -4,7 +4,12 @@ const { StyleSheet } = React;
 
 export default {
   container: {
-    backgroundColor: "#FFF"
+    backgroundColor: "#FFF",
+    
+  },
+
+  contentWrapper: {
+    flex: 1,
   },
 
   question: {
@@ -21,11 +26,16 @@ export default {
     borderBottomWidth: 1,
     borderBottomColor: 'grey',
     marginBottom: 5,
+    justifyContent: 'space-between',    
   },
 
   finish: {
-    bottom: 10,
-    bottom: 0,
+    flex: 1,
+    alignItems: 'flex-end',    
+  },
+
+  ab: {
+    marginBottom: 10,
   }
 
 };
