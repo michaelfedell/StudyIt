@@ -1,6 +1,6 @@
 /**
- * 
- * 
+ *
+ *
  */
 
 import React, { Component } from 'react';
@@ -23,23 +23,27 @@ import {
 } from "native-base";
 import { AlertIOS, ProgressViewIOS } from 'react-native';
 import styles from "./styles";
-import Papa from 'papaparse';
-//import testData from './testData.csv';
+//import Papa from 'papaparse';
 
-const QUESTIONS = [
+/*const QUESTIONS = [
   {question: 'Sample Question Text 1', answers: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'], ansKey: 1},
   {question: 'Sample Question Text 2', answers: ['answer 1', 'answer 2', 'answer 3', 'answer 4'], ansKey: 2},
   {question: 'Sample Question Text 3', answers: ['ANSWER 1', 'ANSWER 2', 'ANSWER 3', 'ANSWER 4'], ansKey: 3},
-];
+];*/
 
-//const file = require('./testData');
+const data = require('./ch15data.json');
 
-//const parseLine = Papa.parse(file);
-const parseLine = Papa.parse('test,TEST');
+
+
+//const parsedData = Papa.parse(file);
+
+/*const parseLine = Papa.parse('1,Which one of the following statement is correct:?,4,The House of Representatives has the power to declare war.,Only the president can declare war.,The Senate has the power to declare war,The House and Senate have collectively the power to declare war.');*/
+
+
 
 let numRight = 0;
 
-export default class App extends Component {  
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -60,7 +64,7 @@ export default class App extends Component {
 
   _MoveOn() {
     // Need to add check for hasNextQuestion
-    if (QUESTIONS[this.state.questionIndex + 1] != undefined) {
+    if (data[this.state.questionIndex + 1] != undefined) {
         this.setState(previousState => {
           return { questionIndex: previousState.questionIndex + 1 }
         });
@@ -68,17 +72,21 @@ export default class App extends Component {
 
     // No questions remain
     else {
-      AlertIOS.alert(
-        'All Done!',
-        'You answered ' + numRight + ' / ' + QUESTIONS.length + ' questions correctly.\nScore is ' + (numRight/QUESTIONS.length*100) + '%',
-        [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
-      );
+      this.grade();
     }
+  }
+
+  grade() {
+    AlertIOS.alert(
+      'All Done!',
+      'You answered ' + numRight + ' / ' + this.state.questionIndex + ' questions correctly.\nScore is ' + (numRight/this.state.questionIndex*100) + '%',
+      [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
+    );
   }
 
   checkAnswer(ans) {
     //sets value of key to the index of correct answer for current question
-    var ansKey = QUESTIONS[this.state.questionIndex].ansKey;
+    var ansKey = data[this.state.questionIndex].Key;
     //user enters the right answer
     if (ans == ansKey) {
       AlertIOS.alert(
@@ -93,7 +101,7 @@ export default class App extends Component {
       AlertIOS.alert(
         'Incorrect',
         'Correct answer is: \nAnswer ' + ansKey,
-        [{text: 'Move On', onPress: () => this._MoveOn(),style: 'default'}]
+        [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
     }
   }
@@ -138,7 +146,7 @@ export default class App extends Component {
   testParse() {
     AlertIOS.alert(
       'test?!',
-      parseLine.data[0][1],
+      data[0].QNum,
     );
   }
 
@@ -153,27 +161,27 @@ export default class App extends Component {
 
         <Content padder>
           <Text style={styles.question}>
-            {QUESTIONS[this.state.questionIndex].question}
+            {data[this.state.questionIndex].Question}
           </Text>
-          
+
           <Button key='AB1' block light onPress={() => this.checkAnswer(1)}>
-            <Text>{QUESTIONS[this.state.questionIndex].answers[0]}</Text>
+            <Text>{data[this.state.questionIndex].Answer_1}</Text>
           </Button>
 
           <Button key='AB2' block light onPress={() => this.checkAnswer(2)}>
-            <Text>{QUESTIONS[this.state.questionIndex].answers[1]}</Text>
+            <Text>{data[this.state.questionIndex].Answer_2}</Text>
           </Button>
 
           <Button key='AB3' block light onPress={() => this.checkAnswer(3)}>
-            <Text>{QUESTIONS[this.state.questionIndex].answers[2]}</Text>
+            <Text>{data[this.state.questionIndex].Answer_3}</Text>
           </Button>
 
           <Button key='AB4' block light onPress={() => this.checkAnswer(4)}>
-            <Text>{QUESTIONS[this.state.questionIndex].answers[2]}</Text>
+            <Text>{data[this.state.questionIndex].Answer_4}</Text>
           </Button>
 
-          <Button onPress={() => this.testParse()}>
-            <Text>TEST PARSE</Text>
+          <Button style={styles.finish} danger full onPress={() => this.grade()}>
+            <Text>Finish</Text>
           </Button>
         </Content>
 
@@ -181,7 +189,7 @@ export default class App extends Component {
           <FooterTab>
             <ProgressViewIOS progress={50} progressTintColor='red'>
             </ProgressViewIOS>
-            <Text>Test</Text>
+            <Text>ProgressTest</Text>
           </FooterTab>
         </Footer>
       </Container>

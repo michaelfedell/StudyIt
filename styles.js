@@ -10,17 +10,22 @@ export default {
   question: {
     padding: 0,
     margin: 0,
-    color: "blue",
-    marginBottom: 5,
+    color: 'blue',
+    marginBottom: 15,
     borderBottomWidth: 1,
-    borderBottomColor: "grey",
+    borderBottomColor: 'grey',
   },
 
   separator: {
     height: 20,
     borderBottomWidth: 1,
-    borderBottomColor: "grey",
+    borderBottomColor: 'grey',
     marginBottom: 5,
+  },
+
+  finish: {
+    bottom: 10,
+    bottom: 0,
   }
 
 };
