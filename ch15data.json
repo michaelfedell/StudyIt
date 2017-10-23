@@ -1,7 +1,7 @@
 [
   {
     "QNum": "1",
-    "Question": "Which one of the following statement is correct:?",
+    "Question": "Which one of the following statements is correct?",
     "Key": "4",
     "Answer_1": "The House of Representatives has the power to declare war.",
     "Answer_2": "Only the president can declare war.",
@@ -11,7 +11,7 @@
   {
     "QNum": "2",
     "Question": "For a bill to be pocket vetoed, Congress must be",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "in session.",
     "Answer_2": "in adjournment.",
     "Answer_3": "in committee.",
@@ -20,7 +20,7 @@
   {
     "QNum": "3",
     "Question": "If the president holds a bill for ten days while Congress remains in session, what happens to the bill?",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "It is vetoed.",
     "Answer_2": "It goes back to conference committee.",
     "Answer_3": "It becomes law.",
@@ -29,7 +29,7 @@
   {
     "QNum": "4",
     "Question": "The War Powers Resolution of 1973 is an example of",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "delegation of power.",
     "Answer_2": "presidential delegation.",
     "Answer_3": "reassertion of congressional authority.",
@@ -56,7 +56,7 @@
   {
     "QNum": "7",
     "Question": "Agreements that the president enters into with foreign nations that do not require the advise and consent of the Senate, are called",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "executive agreements.",
     "Answer_2": "executive orders.",
     "Answer_3": "treaties.",
@@ -65,7 +65,7 @@
   {
     "QNum": "8",
     "Question": "The line-item veto was originally proposed by",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "Ronald Reagan.",
     "Answer_2": "Woodrow Wilson.",
     "Answer_3": "Herbert Hoover.",
@@ -74,7 +74,7 @@
   {
     "QNum": "9",
     "Question": "The president's authority over the military comes from",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "treaty powers.",
     "Answer_2": "Congress.",
     "Answer_3": "being Commander in Chief.",
@@ -92,7 +92,7 @@
   {
     "QNum": "11",
     "Question": "President __________ used the pardoning power to give unconditional amnesty to 10,000 men who had avoided the draft during the Vietnam War.",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "Nixon",
     "Answer_2": "Bush",
     "Answer_3": "Carter",
@@ -101,7 +101,7 @@
   {
     "QNum": "12",
     "Question": "Three presidents have been defeated for reelection partly due to unpopular use of the pardoning power. They were",
-    "Key": "3",
+    "Key": "4",
     "Answer_1": "A. Johnson, Pierce, and Hoover.",
     "Answer_2": "Truman, L.B.J., and Ford",
     "Answer_3": "Adams, T. Roosevelt, and Truman.",
@@ -119,7 +119,7 @@
   {
     "QNum": "14",
     "Question": "The powers of the president that can be derived from specific powers listed in the Constitution are called __________ powers.",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "implicit",
     "Answer_2": "latent",
     "Answer_3": "inherent",
@@ -137,7 +137,7 @@
   {
     "QNum": "16",
     "Question": "The general trend, in the twentieth century, has been toward a more powerful president. This is due to",
-    "Key": "3",
+    "Key": "4",
     "Answer_1": "a series of crises beginning with the Great Depression.",
     "Answer_2": "the slowness of Congress to respond to fast-changing events.",
     "Answer_3": "CNN.",
@@ -146,7 +146,7 @@
   {
     "QNum": "17",
     "Question": "The Cabinet system was established by",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "Article II.",
     "Answer_2": "statute.",
     "Answer_3": "tradition.",
@@ -155,7 +155,7 @@
   {
     "QNum": "18",
     "Question": "Under George W. Bush, the executive branch of government employed more than __________ million people.",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "2",
     "Answer_2": "5",
     "Answer_3": "7",
@@ -173,7 +173,7 @@
   {
     "QNum": "20",
     "Question": "The membership of the Cabinet is determined by the",
-    "Key": "1",
+    "Key": "3",
     "Answer_1": "Constitution.",
     "Answer_2": "number of departments in the bureaucracy.",
     "Answer_3": "President.",
@@ -182,7 +182,7 @@
   {
     "QNum": "21",
     "Question": "According to James Barber's classification system, President Richard Nixon would be classified as:",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "active-negative",
     "Answer_2": "passive-positive",
     "Answer_3": "active-positive",
@@ -191,7 +191,7 @@
   {
     "QNum": "22",
     "Question": "Removal of an official by impeachment proceedings requires a",
-    "Key": "2",
+    "Key": "1",
     "Answer_1": "majority vote in the House and 2/3 vote in the Senate",
     "Answer_2": "majority vote in the Senate and 2/3 vote in the House",
     "Answer_3": "majority vote in both Houses and conviction by the Supreme Court",
@@ -209,7 +209,7 @@
   {
     "QNum": "24",
     "Question": "According to James Barber's classification system, President Dwight Eisenhower would be classified as:",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "active-negative",
     "Answer_2": "passive-positive",
     "Answer_3": "active-positive",
@@ -236,7 +236,7 @@
   {
     "QNum": "27",
     "Question": "According to the 25th Amendment, if a dispute arises over the president's ability to discharge his normal functions",
-    "Key": "1",
+    "Key": "3",
     "Answer_1": "the Supreme Court is empowered to select a qualified doctor to certify whether or not the president is able to function properly.",
     "Answer_2": "the Speaker of the House will become acting president until the dispute is resolved.",
     "Answer_3": "a 2/3 vote of Congress is required to install the vice president as acting president.",
@@ -245,7 +245,7 @@
   {
     "QNum": "28",
     "Question": "The electoral college:",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "makes each state equally important to Presidential candidates",
     "Answer_2": "makes populous states more important to candidates",
     "Answer_3": "is selected by state legislatures",
@@ -290,7 +290,7 @@
   {
     "QNum": "33",
     "Question": "According to the War Powers Act",
-    "Key": "3",
+    "Key": "1",
     "Answer_1": "the president must report to Congress within 48 hours of sending military forces into action",
     "Answer_2": "Congress may not approve of the president's action forcing the president to recall the troops within 60 days.",
     "Answer_3": "Congress will take charge of ultimate military decisions after a formal Declaration of War.",
@@ -299,7 +299,7 @@
   {
     "QNum": "34",
     "Question": "The National Security Council is a link between",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "Congress and the president.",
     "Answer_2": "leaders of foreign governments and the president.",
     "Answer_3": "the Security and Exchange Commission and the president.",
@@ -308,7 +308,7 @@
   {
     "QNum": "35",
     "Question": "The impeachment trial in the Senate of a president is presided over by the",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "Vice President",
     "Answer_2": "Speaker of the House",
     "Answer_3": "Chief Justice of the Supreme Court",
@@ -317,7 +317,7 @@
   {
     "QNum": "36",
     "Question": "A power which the President does not have over Congress is",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "pocket veto",
     "Answer_2": "item veto",
     "Answer_3": "call a special session",
@@ -326,7 +326,7 @@
   {
     "QNum": "37",
     "Question": "a pocket veto",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "can be used by a president only once during his term in office (twice if he serves two terms).",
     "Answer_2": "can only be used when Congress has adjourned for the session.",
     "Answer_3": "can become law if 2/3 of both houses override the veto.",
@@ -335,7 +335,7 @@
   {
     "QNum": "38",
     "Question": "A major difference between a treaty and an executive agreement is",
-    "Key": "2",
+    "Key": "1",
     "Answer_1": "that a treaty must be approved by the Senate and an executive agreement does not need the Senate's approval.",
     "Answer_2": "the treaties have been used exclusively in the 20th century while executive agreements were used only prior to the 20th century.",
     "Answer_3": "that treaties can be secret while and executive agreement must be approved by the World Court.",
@@ -344,7 +344,7 @@
   {
     "QNum": "39",
     "Question": "The only presidents to be impeached was",
-    "Key": "1",
+    "Key": "3",
     "Answer_1": "Richard Nixon and Andrew Johnson",
     "Answer_2": "William Henry Harrison and Richard Nixon",
     "Answer_3": "Andrew Johnson and William J. Clinton",
@@ -362,7 +362,7 @@
   {
     "QNum": "41",
     "Question": "Presidential electors (members of the electoral college)",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "must vote for the candidate of their own party.",
     "Answer_2": "must vote for the candidate who received the most votes in their state.",
     "Answer_3": "must vote for the candidate who received the most votes in their congressional district.",
@@ -371,7 +371,7 @@
   {
     "QNum": "42",
     "Question": "Under the Twenty-second Amendment, the incumbent president must normally change at least once every",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "four years",
     "Answer_2": "eight years",
     "Answer_3": "decade",
@@ -389,7 +389,7 @@
   {
     "QNum": "44",
     "Question": "Which of the following roles of the president is not required of him by the Constitution?",
-    "Key": "2",
+    "Key": "3",
     "Answer_1": "chief executive",
     "Answer_2": "commander in chief",
     "Answer_3": "chief of party",
@@ -425,7 +425,7 @@
   {
     "QNum": "48",
     "Question": "Which of the following is not a component of the Executive Office of the President?",
-    "Key": "4",
+    "Key": "2",
     "Answer_1": "the National Security Council",
     "Answer_2": "the cabinet",
     "Answer_3": "the Office of Management and Budget",
@@ -434,7 +434,7 @@
   {
     "QNum": "49",
     "Question": "The members of the Cabinet are:",
-    "Key": "4",
+    "Key": "2",
     "Answer_1": "elected along with the president.",
     "Answer_2": "appointed by the president and confirmed by the Senate.",
     "Answer_3": "appointed by the Congress.",
@@ -452,7 +452,7 @@
   {
     "QNum": "51",
     "Question": "The organization of the White House staff is",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "determined by the congressional leadership.",
     "Answer_2": "subject to Senate approval.",
     "Answer_3": "constitutionally mandated.",
@@ -461,7 +461,7 @@
   {
     "QNum": "52",
     "Question": "The main function of the Office of Management and Budget is to:",
-    "Key": "4",
+    "Key": "2",
     "Answer_1": "reorganize the executive branch of government as needed.",
     "Answer_2": "prepare the executive budget.",
     "Answer_3": "manage the economy.",
@@ -470,7 +470,7 @@
   {
     "QNum": "53",
     "Question": "Most presidents in the last two decades have been judged rather harshly. This may be because",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "the electorate has heightened expectations about what the president can and should accomplish.",
     "Answer_2": "of a skeptical citizenry.",
     "Answer_3": "we have debunked the myths of the presidency.",
@@ -479,7 +479,7 @@
   {
     "QNum": "54",
     "Question": "Under the Constitution, the qualifications for president include that the president must be",
-    "Key": "3",
+    "Key": "1",
     "Answer_1": "over 35 years old and a natural born citizen.",
     "Answer_2": "male, an American citizen, and a resident for at least 14 years.",
     "Answer_3": "experienced in politics and law, over 30 years old, and a citizen.",
@@ -488,7 +488,7 @@
   {
     "QNum": "55",
     "Question": "The president's term is __________ years.",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "2",
     "Answer_2": "4",
     "Answer_3": "6",
@@ -497,7 +497,7 @@
   {
     "QNum": "56",
     "Question": "The first president of the United States was",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "Thomas Jefferson.",
     "Answer_2": "James Madison.",
     "Answer_3": "John Adams.",
@@ -506,7 +506,7 @@
   {
     "QNum": "57",
     "Question": "The president is limited to two terms or ten years due to the ratification of the __________ Amendment.",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "16th",
     "Answer_2": "19th",
     "Answer_3": "22nd",
@@ -515,7 +515,7 @@
   {
     "QNum": "58",
     "Question": "The process of bringing charges against a public official is called",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "impeachment.",
     "Answer_2": "removal.",
     "Answer_3": "recall.",
@@ -524,7 +524,7 @@
   {
     "QNum": "59",
     "Question": "In order to remove a president or federal judge from office, the House must impeach, and then",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "50 percent plus one of the Senate must vote for removal.",
     "Answer_2": "two-thirds of the Senate must vote for removal.",
     "Answer_3": "both houses must have a majority vote for removal.",
@@ -533,7 +533,7 @@
   {
     "QNum": "60",
     "Question": "The first president to die in office was",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "Franklin Delano Roosevelt.",
     "Answer_2": "James Garfield.",
     "Answer_3": "John F. Kennedy.",
@@ -551,7 +551,7 @@
   {
     "QNum": "62",
     "Question": "Among the constitutional powers of the vice president is to",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "preside over the Senate.",
     "Answer_2": "vote in the Senate in the event of a tie.",
     "Answer_3": "fill in for the president.",
@@ -569,7 +569,7 @@
   {
     "QNum": "64",
     "Question": "The strongest and most active vice president to date has been",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "John Nance Garner.",
     "Answer_2": "Walter Mondale.",
     "Answer_3": "Dick Cheney.",
@@ -578,7 +578,7 @@
   {
     "QNum": "65",
     "Question": "The president, under Article II, has the power to make treaties limited by",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "the House Foreign Relations Committee.",
     "Answer_2": "the advise and consent of the Senate.",
     "Answer_3": "State Department rules.",
@@ -587,7 +587,7 @@
   {
     "QNum": "66",
     "Question": "In the 1992 Presidential election, Mario Cuomo gets 22 million popular votes and 262 votes in the electoral college. Jack Kemp gets 20 million popular votes and 276 votes in the electoral college. Who becomes president?",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "Cuomo",
     "Answer_2": "Kemp",
     "Answer_3": "Neither... until the House of Representatives meets and chooses a president.",
@@ -596,7 +596,7 @@
   {
     "QNum": "67",
     "Question": "Which of the following best describes the relationship between a president's public popularity and his political power?",
-    "Key": "2",
+    "Key": "3",
     "Answer_1": "There is no relationship between the two.",
     "Answer_2": "Public popularity is important to the president only at election time.",
     "Answer_3": "high public support can be translated into real political power.",
@@ -623,7 +623,7 @@
   {
     "QNum": "70",
     "Question": "If the president does not sign a bill and 10 congressional working days go by,",
-    "Key": "3",
+    "Key": "1",
     "Answer_1": "The bill becomes law.",
     "Answer_2": "The bill dies.",
     "Answer_3": "Congress must adjourn.",
@@ -632,7 +632,7 @@
   {
     "QNum": "71",
     "Question": "Executive agreements differ from treaties mainly in that:",
-    "Key": "4",
+    "Key": "3",
     "Answer_1": "they are not binding on the United States.",
     "Answer_2": "they do not involve very significant arrangements.",
     "Answer_3": "they do not require congressional approval.",
@@ -641,7 +641,7 @@
   {
     "QNum": "72",
     "Question": "Members of the President's cabinet have the right to vote",
-    "Key": "1",
+    "Key": "3",
     "Answer_1": "House only",
     "Answer_2": "Senate only",
     "Answer_3": "neither House",
@@ -650,7 +650,7 @@
   {
     "QNum": "73",
     "Question": "The President performs his function as \"symbol of the nation\" when he:",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "delivers his State of the Union Address.",
     "Answer_2": "toasts foreign dignitaries.",
     "Answer_3": "dedicates a National arts Center.",
@@ -668,7 +668,7 @@
   {
     "QNum": "75",
     "Question": "Attempts to curb the president's powers as commander-in-chief of the armed forces have included all of the following EXCEPT:",
-    "Key": "3",
+    "Key": "1",
     "Answer_1": "requiring the president to wait for Congress' approval to respond to a nuclear attack.",
     "Answer_2": "budget cuts by Congress in the president's proposals",
     "Answer_3": "the 1973 War Powers resolution.",
@@ -677,7 +677,7 @@
   {
     "QNum": "76",
     "Question": "Age requirements for Senators and Representatives are",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "26 and 21",
     "Answer_2": "30 and 25",
     "Answer_3": "35 and 30",
@@ -686,7 +686,7 @@
   {
     "QNum": "77",
     "Question": "If a vice president becomes president between elections, a new vice president is:",
-    "Key": "2",
+    "Key": "3",
     "Answer_1": "elected by the people.",
     "Answer_2": "selected by Congress.",
     "Answer_3": "nominated by the president and confirmed by Congress.",
@@ -695,7 +695,7 @@
   {
     "QNum": "78",
     "Question": "Using James Barber's classification system, active-negative presidents are described as:",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "dutiful but vague and bent on avoiding conflict.",
     "Answer_2": "compulsive, aggressive, emphasize getting and keeping power.",
     "Answer_3": "flexible, have high self-esteem, and set store in results.",
@@ -704,7 +704,7 @@
   {
     "QNum": "79",
     "Question": "Using James Barber's classification system, passive-positive presidents are described as:",
-    "Key": "3",
+    "Key": "4",
     "Answer_1": "dutiful but vague and bent on avoiding conflict.",
     "Answer_2": "compulsive, aggressive, emphasize getting and keeping power.",
     "Answer_3": "flexible, have high self-esteem, and set store in results.",
@@ -713,7 +713,7 @@
   {
     "QNum": "80",
     "Question": "According to James Barber's classification system, President F. Roosevelt would be classified as:",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "active-negative",
     "Answer_2": "active-positive",
     "Answer_3": "passive-positive",
@@ -722,7 +722,7 @@
   {
     "QNum": "81",
     "Question": "The Executive Office of the President was established in 1939 to",
-    "Key": "3",
+    "Key": "4",
     "Answer_1": "formalize the informal structure of the Cabinet.",
     "Answer_2": "act as a liaison with the legislative branch.",
     "Answer_3": "aid in the war effort.",
@@ -731,7 +731,7 @@
   {
     "QNum": "82",
     "Question": "In 1947, the __________ was established to advise the president on military affairs and foreign policy.",
-    "Key": "2",
+    "Key": "1",
     "Answer_1": "National Security Council",
     "Answer_2": "Central Intelligence Agency",
     "Answer_3": "Council on Foreign Relations",
@@ -740,7 +740,7 @@
   {
     "QNum": "83",
     "Question": "White House staff employee members",
-    "Key": "1",
+    "Key": "2",
     "Answer_1": "are confirmed by the Senate, like all presidential appointments.",
     "Answer_2": "derive their power from personal relationships with the president and have no legal authority.",
     "Answer_3": "number over 2,000.",
@@ -758,7 +758,7 @@
   {
     "QNum": "85",
     "Question": "When the presidency and Congress are controlled by different parties it is called",
-    "Key": "3",
+    "Key": "1",
     "Answer_1": "divided government.",
     "Answer_2": "separation of powers.",
     "Answer_3": "Taftian government.",
@@ -767,7 +767,7 @@
   {
     "QNum": "86",
     "Question": "A president can set national policy and priorities through",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "his budget proposal.",
     "Answer_2": "the introduction of bills in Congress.",
     "Answer_3": "the use of the impoundment power.",
@@ -776,7 +776,7 @@
   {
     "QNum": "87",
     "Question": "The president's responsibilities in the budget process stem from",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "enumerated powers.",
     "Answer_2": "the Office of Management and Budget.",
     "Answer_3": "the Civil War.",
@@ -785,7 +785,7 @@
   {
     "QNum": "88",
     "Question": "The responsibilities of the Office of Management and Budget include",
-    "Key": "1",
+    "Key": "4",
     "Answer_1": "preparing the president's budget program.",
     "Answer_2": "reviewing the budget proposals of executive departments.",
     "Answer_3": "supplying economic forecasts.",
@@ -803,7 +803,7 @@
   {
     "QNum": "90",
     "Question": "According to Thomas Cronin, a president has a number of ways to get his bills passed by Congress including",
-    "Key": "2",
+    "Key": "4",
     "Answer_1": "by demanding party discipline.",
     "Answer_2": "through the use of patronage.",
     "Answer_3": "persuasion, personality, and leadership.",
@@ -812,7 +812,7 @@
   {
     "QNum": "91",
     "Question": "The distribution of personal favors and rewards to political friends and allies is called",
-    "Key": "4",
+    "Key": "2",
     "Answer_1": "politics.",
     "Answer_2": "patronage.",
     "Answer_3": "influence peddling.",
@@ -839,7 +839,7 @@
   {
     "QNum": "94",
     "Question": "The key to amassing greater power and authority for a president lies in",
-    "Key": "4",
+    "Key": "1",
     "Answer_1": "the ability to persuade.",
     "Answer_2": "the constitutional powers of office.",
     "Answer_3": "partisanship.",
@@ -848,7 +848,7 @@
   {
     "QNum": "95",
     "Question": "The president who reached out to public opinion by using his office as a \"bully pulpit\" was",
-    "Key": "1",
+    "Key": "3",
     "Answer_1": "Abraham Lincoln.",
     "Answer_2": "Calvin Coolidge.",
     "Answer_3": "Teddy Roosevelt.",
@@ -857,7 +857,7 @@
   {
     "QNum": "96",
     "Question": "Surges in presidential popularity often occur due to",
-    "Key": "3",
+    "Key": "2",
     "Answer_1": "midterm elections.",
     "Answer_2": "international events.",
     "Answer_3": "public appearances.",

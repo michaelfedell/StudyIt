@@ -23,6 +23,7 @@ import {
 } from "native-base";
 import { AlertIOS, ProgressViewIOS } from 'react-native';
 import styles from "./styles";
+var numeral = require('numeral');
 
 //Global variables to be used by the program
 const data = require('./ch15data.json');
@@ -145,44 +146,55 @@ export default class App extends Component {
           </Body>
         </Header>
 
-        <Content padder style={styles.contentWrapper}>
-          <Text style={styles.question}>
-            {data[this.state.questionIndex].Question}
-          </Text>
-
-          <Button key='AB1' block light style={styles.ab} onPress={() => this.checkAnswer(1)}>
-            <Text>{data[this.state.questionIndex].Answer_1}</Text>
-          </Button>
-
-          <Button key='AB2' block light style={styles.ab} 
-          onPress={() => this.checkAnswer(2)}>
-            <Text>{data[this.state.questionIndex].Answer_2}</Text>
-          </Button>
-
-          <Button key='AB3' block light style={styles.ab} 
-          onPress={() => this.checkAnswer(3)}>
-            <Text>{data[this.state.questionIndex].Answer_3}</Text>
-          </Button>
-
-          <Button key='AB4' block light style={styles.ab} 
-          onPress={() => this.checkAnswer(4)}>
-            <Text>{data[this.state.questionIndex].Answer_4}</Text>
-          </Button>
-
-          <View style={styles.finish}>
-            <Button danger full 
-            onPress={() => this.grade(this.state.questionIndex)}>
-              <Text>Finish</Text>
-            </Button>
+        <Content contentContainerStyle={styles.wrapper} padder>
+          
+          <View style={styles.question}>
+            <Text style={styles.questionText}>
+              {data[this.state.questionIndex].Question}
+            </Text>
           </View>
+
+          <View style={styles.wrapper}>
+            <View style={styles.answers}>
+              <Button key='AB1' block light style={styles.ab} 
+              onPress={() => this.checkAnswer(1)}>
+                <Text>{data[this.state.questionIndex].Answer_1}</Text>
+              </Button>
+
+              <Button key='AB2' block light style={styles.ab} 
+              onPress={() => this.checkAnswer(2)}>
+                <Text>{data[this.state.questionIndex].Answer_2}</Text>
+              </Button>
+
+              <Button key='AB3' block light style={styles.ab} 
+              onPress={() => this.checkAnswer(3)}>
+                <Text>{data[this.state.questionIndex].Answer_3}</Text>
+              </Button>
+
+              <Button key='AB4' block light style={styles.ab} 
+              onPress={() => this.checkAnswer(4)}>
+                <Text>{data[this.state.questionIndex].Answer_4}</Text>
+              </Button>
+            </View>
+
+
+            <View style={styles.finish}>
+              <Button danger full 
+              onPress={() => this.grade(this.state.questionIndex)}>
+                <Text>Finish</Text>
+              </Button>
+            </View>
+          </View>
+
+          <ProgressViewIOS
+            progress={(this.state.questionIndex/data.length)}
+            progressTintColor='lightBlue'
+            trackTintColor='lightGrey' />
         </Content>
 
         <Footer>
-          <FooterTab>
-            <ProgressViewIOS progress={50} progressTintColor='red'>
-            </ProgressViewIOS>
-            <Text>ProgressTest</Text>
-          </FooterTab>
+          <Text>{(data.length - this.state.questionIndex)} of {data.length} questions remain{'\n'}
+          Current Score: {numeral(numRight/this.state.questionIndex).format('0.0%')}</Text>
         </Footer>
       </Container>
     );
