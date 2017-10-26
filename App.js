@@ -65,7 +65,7 @@ export default class App extends Component {
   grade(numAnswered) {
     AlertIOS.alert(
       'All Done!',
-      'You answered ' + numRight + ' / ' + numAnswered + ' questions correctly.\nScore is ' + (numRight/numAnswered*100) + '%',
+      'You answered ' + numRight + ' / ' + numAnswered + ' questions correctly.\nScore is ' + numeral(numRight/numAnswered).format('0.0%'),
       [{text: 'Start Over', onPress: () => this._reset(), style: 'default'}]
     );
   }
