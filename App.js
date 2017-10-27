@@ -33,10 +33,6 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      answerBox1: false,
-      answerBox2: false,
-      answerBox3: false,
-      answerBox4: false,
       questionIndex: 0,
     };
   }
@@ -91,50 +87,6 @@ export default class App extends Component {
         [{text: 'Move On', onPress: () => this._MoveOn(), style: 'default'}]
       );
     }
-  }
-
-
-  toggleAnswerBox1() {
-    this.setState({
-      answerBox1: true,
-      answerBox2: false,
-      answerBox3: false,
-      answerBox4: false
-    });
-  }
-
-  toggleAnswerBox2() {
-    this.setState({
-      answerBox1: false,
-      answerBox2: true,
-      answerBox3: false,
-      answerBox4: false
-    });
-  }
-
-  toggleAnswerBox3() {
-    this.setState({
-      answerBox1: false,
-      answerBox2: false,
-      answerBox3: true,
-      answerBox4: false
-    });
-  }
-
-  toggleAnswerBox4() {
-    this.setState({
-      answerBox1: false,
-      answerBox2: false,
-      answerBox3: false,
-      answerBox4: true
-    });
-  }
-
-  testParse() {
-    AlertIOS.alert(
-      'test?!',
-      data[0].QNum,
-    );
   }
 
   render() {

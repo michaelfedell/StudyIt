@@ -1,2 +1,3 @@
-# StudyIt - Personal Project by Michael Fedell
-Build info to come soon
+# StudyIt
+Personal Project by Michael Fedell
+This mobile app was built to facilitate the study of multiple choice test material. Many online classes offer extensive study guides that include a complete bank of test questions and the corresponding answer choices. The correct answers are sometimes supplied, or may be found in the course material. Then, the questions and answers can be easily compiled in a spreadsheet using simple copy and pastes. This mobile app will then load the comma-separated values from the spreadsheet into a JSON object to be displayed in an interactive user interface. This allows a student to quickly and easily practice test material while on the go.
